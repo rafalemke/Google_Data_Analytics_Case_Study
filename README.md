@@ -2,7 +2,7 @@
 Repositório contendo um estudo de caso do curso de análise de dados da Google, ministrado pelo Coursera.
 
 ## Introdução
-O estudo de caso é sobre a Cyclistic, uma empresa fictícia de compartilhamento de bicicletas em Chicago, EUA. Como analista de dados júnior, seguirei as etapas do processo de análise de dados para responder às principais perguntas de negócios. As etapas incluem perguntar, preparar, processar, analisar, compartilhar e agir.
+O estudo de caso é sobre a Cyclistic, uma empresa fictícia de compartilhamento de bicicletas em Chicago, EUA. Como suposto analista de dados júnior, seguirei as etapas do processo de análise de dados para responder às principais perguntas de negócios. As etapas incluem perguntar, preparar, processar, analisar, compartilhar e agir.
 
 ## Cenário
 A Cyclistic, desde seu lançamento em 2016, expandiu-se para 5.824 bicicletas em 692 estações em Chicago, promovendo flexibilidade com passes de viagem única, diários e anuais. Com foco em conscientização geral, a estratégia destaca a lucratividade dos membros anuais, impulsionando a iniciativa de converter passageiros casuais em membros. Lily Moreno, Diretora de Marketing, busca entender as diferenças entre os grupos, motivos para os casuais aderirem a planos anuais e como a mídia digital pode influenciar. O objetivo é otimizar a estratégia, aproveitando dados históricos de trajetos de bicicleta para identificar tendências.
