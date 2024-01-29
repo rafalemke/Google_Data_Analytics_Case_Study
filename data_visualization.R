@@ -1,7 +1,7 @@
 library(ggplot2)
 library(lubridate)
 library(tidyverse)
-trips2023_v2 <- read.csv("C:/Users/Rafa_/Documents/GitHub/Google_Data_Analytics_Case_Study/trips_2023_v2.csv")
+trips2023_v2 <- read.csv("###/GitHub/Google_Data_Analytics_Case_Study/trips_2023_v2.csv")
 
 aggregate(trips2023_v2$ride_length ~ trips2023_v2$member_casual + trips2023_v2$day_of_week, FUN = mean)
 aggregate(trips2023_v2$ride_length ~ trips2023_v2$member_casual, FUN = median)
