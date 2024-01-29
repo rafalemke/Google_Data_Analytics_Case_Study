@@ -16,3 +16,8 @@ Usarei dados históricos dos trajetos realizados entre janeiro e dezembro de 202
 
 Os dados estão organizados em 12 diferentes arquivos csv, nomeados por mês e ano, contendo informações de cada corrida, como origem, destino, data, hora, id do usuário dentre outras.
 
+## Processar
+Devido ao tamanho dos arquivos, que ultrapassam 6 milhões de linhas, optei por manipular os dados utilizando a linguagem R junto com o software RStudio. A utilização de planilhas nesse caso seria inviável devido ao grande número de linhas. Poderia também utilizar o BigQuery ou Python, visto que já tenho mais afinidade, mas escolhi o RStudio pelo desafio de uma nova linguagem.
+
+
+
