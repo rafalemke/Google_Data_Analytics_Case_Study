@@ -9,18 +9,18 @@ library(tidyr)
 
 # Carregar arquivos .csv em um dataframe
 
-jan2023 <- read.csv("C:/Users/Rafa_/Documents/GitHub/Google_Data_Analytics_Case_Study/divvy-tripdata2023/202301-divvy-tripdata.csv")
-feb2023 <- read.csv("C:/Users/Rafa_/Documents/GitHub/Google_Data_Analytics_Case_Study/divvy-tripdata2023/202302-divvy-tripdata.csv")
-mar2023 <- read.csv("C:/Users/Rafa_/Documents/GitHub/Google_Data_Analytics_Case_Study/divvy-tripdata2023/202303-divvy-tripdata.csv")
-apr2023 <- read.csv("C:/Users/Rafa_/Documents/GitHub/Google_Data_Analytics_Case_Study/divvy-tripdata2023/202304-divvy-tripdata.csv")
-may2023 <- read.csv("C:/Users/Rafa_/Documents/GitHub/Google_Data_Analytics_Case_Study/divvy-tripdata2023/202305-divvy-tripdata.csv")
-jun2023 <- read.csv("C:/Users/Rafa_/Documents/GitHub/Google_Data_Analytics_Case_Study/divvy-tripdata2023/202306-divvy-tripdata.csv")
-jul2023 <- read.csv("C:/Users/Rafa_/Documents/GitHub/Google_Data_Analytics_Case_Study/divvy-tripdata2023/202307-divvy-tripdata.csv")
-aug2023 <- read.csv("C:/Users/Rafa_/Documents/GitHub/Google_Data_Analytics_Case_Study/divvy-tripdata2023/202308-divvy-tripdata.csv")
-sep2023 <- read.csv("C:/Users/Rafa_/Documents/GitHub/Google_Data_Analytics_Case_Study/divvy-tripdata2023/202309-divvy-tripdata.csv")
-oct2023 <- read.csv("C:/Users/Rafa_/Documents/GitHub/Google_Data_Analytics_Case_Study/divvy-tripdata2023/202310-divvy-tripdata.csv")
-nov2023 <- read.csv("C:/Users/Rafa_/Documents/GitHub/Google_Data_Analytics_Case_Study/divvy-tripdata2023/202311-divvy-tripdata.csv")
-dec2023 <- read.csv("C:/Users/Rafa_/Documents/GitHub/Google_Data_Analytics_Case_Study/divvy-tripdata2023/202312-divvy-tripdata.csv")
+jan2023 <- read.csv("###/divvy-tripdata2023/202301-divvy-tripdata.csv")
+feb2023 <- read.csv("###/divvy-tripdata2023/202302-divvy-tripdata.csv")
+mar2023 <- read.csv("###/divvy-tripdata2023/202303-divvy-tripdata.csv")
+apr2023 <- read.csv("###/divvy-tripdata2023/202304-divvy-tripdata.csv")
+may2023 <- read.csv("###/divvy-tripdata2023/202305-divvy-tripdata.csv")
+jun2023 <- read.csv("###/divvy-tripdata2023/202306-divvy-tripdata.csv")
+jul2023 <- read.csv("###/divvy-tripdata2023/202307-divvy-tripdata.csv")
+aug2023 <- read.csv("###/divvy-tripdata2023/202308-divvy-tripdata.csv")
+sep2023 <- read.csv("###/divvy-tripdata2023/202309-divvy-tripdata.csv")
+oct2023 <- read.csv("###/divvy-tripdata2023/202310-divvy-tripdata.csv")
+nov2023 <- read.csv("###/divvy-tripdata2023/202311-divvy-tripdata.csv")
+dec2023 <- read.csv("###/divvy-tripdata2023/202312-divvy-tripdata.csv")
 
 # Criando uma lista com os datasets e verificando se todos têm o mesmo formato
 datasets <- list(jan2023, feb2023, mar2023, apr2023, may2023, jun2023, jul2023, aug2023, sep2023, oct2023, nov2023, dec2023)
@@ -138,4 +138,4 @@ trips2023_v2 <- trips2023_v2 %>%
 
 
 # Salvando novo dataframe limpo e pronto para análise e visualização.
-write.csv(trips2023_v2, file="C:/Users/Rafa_/Documents/GitHub/Google_Data_Analytics_Case_Study/trips_2023_v2.csv")
+write.csv(trips2023_v2, file="###/GitHub/Google_Data_Analytics_Case_Study/trips_2023_v2.csv")
