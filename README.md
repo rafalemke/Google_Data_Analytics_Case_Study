@@ -1,14 +1,14 @@
 # Google_Data_Analytics_Case_Study
 Repositório contendo um estudo de caso do curso de análise de dados da Google, ministrado pelo Coursera.
 
-## Introdução
-O estudo de caso é sobre a Cyclistic, uma empresa fictícia de compartilhamento de bicicletas em Chicago, EUA. Como suposto analista de dados júnior, seguirei as etapas do processo de análise de dados para responder às principais perguntas de negócios. As etapas incluem perguntar, preparar, processar, analisar, compartilhar e agir.
+# Introdução
+   O estudo de caso é sobre a Cyclistic, uma empresa fictícia de compartilhamento de bicicletas em Chicago, EUA. Como suposto analista de dados júnior, seguirei as etapas do processo de análise de dados para responder às principais perguntas de negócios. <br> <br>As etapas incluem perguntar, preparar, processar, analisar, compartilhar e agir.
 
-## Cenário
-A Cyclistic, desde seu lançamento em 2016, expandiu-se para 5.824 bicicletas em 692 estações em Chicago, promovendo flexibilidade com passes de viagem única, diários e anuais. Com foco em conscientização geral, a estratégia destaca a lucratividade dos membros anuais, impulsionando a iniciativa de converter passageiros casuais em membros. Lily Moreno, Diretora de Marketing, busca entender as diferenças entre os grupos, motivos para os casuais aderirem a planos anuais e como a mídia digital pode influenciar. O objetivo é otimizar a estratégia, aproveitando dados históricos de trajetos de bicicleta para identificar tendências.
+# Cenário
+A Cyclistic, desde seu lançamento em 2016, expandiu-se para 5.824 bicicletas em 692 estações em Chicago, promovendo flexibilidade com passes de viagem única, diários e anuais. Com foco em conscientização geral, a estratégia destaca a lucratividade dos membros anuais, impulsionando a iniciativa de converter passageiros casuais em membros. Lily Moreno, diretora de marketing, busca entender as diferenças entre os grupos, motivos para os casuais aderirem a planos anuais e como a mídia digital pode influenciar. O objetivo é otimizar a estratégia, aproveitando dados históricos de trajetos de bicicleta para identificar tendências.
 
 ## Perguntar
-Lily, a diretora de marketing, propôs a primeira pergunta-chave:  Como os membros anuais e os ciclistas casuais usam as bicicletas da Cyclistic de forma diferente?
+Lily propôs a primeira pergunta-chave: <strong> Como os membros anuais e os ciclistas casuais usam as bicicletas da Cyclistic de forma diferente? </strong> <br>
 Vamos analisar dados históricos para entender essas distinções e orientar a criação de estratégias de marketing com base nos insights obtidos com os dados.
 
 ## Preparar
@@ -18,9 +18,11 @@ Os dados estão organizados em 12 diferentes arquivos csv, nomeados por mês e a
 
 ## Processar
 Devido ao tamanho dos arquivos, que ultrapassam 6 milhões de linhas, optei por manipular os dados utilizando a linguagem R junto com o software RStudio. A utilização de planilhas nesse caso seria inviável devido ao grande número de linhas. Poderia também utilizar o BigQuery ou Python, visto que já tenho mais afinidade, mas escolhi o RStudio pelo desafio de uma nova linguagem.
+   - Também está disponível o script com o código em R nesse [link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/edit/main/data_extraction.R).
 
-Segue um resumo de todo tratamento feito com os dados obtidos. <br>
-Também está disponível o script com o código em R nesse [link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/edit/main/data_extraction.R).
+### Segue um resumo de todo tratamento feito com os dados obtidos.
+
+
 
 **1. Carregamento dos Pacotes:**
    - tidyverse, ggplot2, lubridate, e tidyr são pacotes essenciais para análise e manipulação.
@@ -56,3 +58,30 @@ Também está disponível o script com o código em R nesse [link](https://githu
 **10. Transformação e Salvamento:**
    - Conversão dos horários para apenas a hora.
    - Seleção final de colunas e salvamento do dataframe limpo em CSV.
+
+
+## Analisar
+   - [Link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/edit/main/data_exploration.R) do script contendo o código em R.
+<br>
+Na próxima etapa será melhor detalhado, visto que a visualização dos gráficos ajudam bastante na compreensão dos dados. <br>
+
+### Segue um resumo do que foi feito nessa etapa.
+
+<Br>
+
+
+**1. Distribuição dos Tipos de Membros:**
+
+   - Verifica-se a distribuição percentual de membros nos grupos "member" e "casual" para compreender a participação relativa de cada categoria.
+
+**2. Análise Temporal:**
+
+   - Explora-se padrões ao longo do tempo, investigando variações mensais, diárias e por dia da semana. Compara-se a frequência de viagens entre membros "member" e "casual" em diferentes períodos.
+
+**3. Duração Média de Viagens:**
+
+   - Calcula-se a duração média de viagens para cada tipo de membro e compara-se as médias, identificando eventuais diferenças significativas.
+
+**4. Análise de Horários:**
+
+   - Investiga-se os horários mais comuns de início para cada tipo de membro. Analisa-se se existem diferenças nos padrões de uso ao longo do dia.
