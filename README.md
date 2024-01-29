@@ -19,5 +19,40 @@ Os dados estão organizados em 12 diferentes arquivos csv, nomeados por mês e a
 ## Processar
 Devido ao tamanho dos arquivos, que ultrapassam 6 milhões de linhas, optei por manipular os dados utilizando a linguagem R junto com o software RStudio. A utilização de planilhas nesse caso seria inviável devido ao grande número de linhas. Poderia também utilizar o BigQuery ou Python, visto que já tenho mais afinidade, mas escolhi o RStudio pelo desafio de uma nova linguagem.
 
+Segue um resumo de todo tratamento feito com os dados obtidos. <br>
+Também está disponível o script com o código em R nesse [link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/edit/main/data_extraction.R).
 
+**1. Carregamento dos Pacotes:**
+   - tidyverse, ggplot2, lubridate, e tidyr são pacotes essenciais para análise e manipulação.
 
+**2. Carregamento dos Dados:**
+   - Carregamento de dados mensais (jan-dez/2023) de arquivos CSV para dataframes.
+
+**3. Verificação da Consistência dos Datasets:**
+   - Utilização de uma função para verificar consistência nas colunas.
+
+**4. Concatenação dos Datasets:**
+   - Uso de bind_rows para unir os datasets em um único dataframe (trips2023).
+
+**5. Limpeza e Seleção de Colunas:**
+   - Remoção de colunas desnecessárias.
+   - Utilização de drop_na para remover linhas com dados em branco.
+
+**6. Análise Exploratória de Dados:**
+   - Criação de variáveis de data, mês, ano, dia da semana, e cálculo da duração da corrida.
+
+**7. Manipulação de Dados Temporais:**
+   - Transformação da duração em numérica.
+   - Exclusão de dados com duração fora do intervalo desejado.
+
+**8. Análise Estatística:**
+   - Verificação e remoção de dados faltantes.
+   - Exibição dos 100 menores tempos de corrida.
+   - Cálculo de médias e medianas de duração por tipo de cliente.
+
+**9. Limpeza Adicional:**
+   - Remoção de linhas com nomes de estações em branco.
+
+**10. Transformação e Salvamento:**
+   - Conversão dos horários para apenas a hora.
+   - Seleção final de colunas e salvamento do dataframe limpo em CSV.
