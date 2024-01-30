@@ -54,6 +54,25 @@ ggplot(media_semanal, aes(x = day_of_week, y = media_duracao, fill = member_casu
   theme(plot.title.position = "plot",
         axis.text.x = element_text(hjust = 0.5), plot.title = element_text(hjust = 0.5))
 
+# Gráficco com o numero de corridas semanais entre membros e clientes casuais.
+
+trips_week <- trips2023_v2 %>%
+  group_by(day_of_week, member_casual) %>%
+  summarise(numero_corridas = n()/1000)
+
+ordem_dias <- c("segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado", "domingo")
+trips_week$day_of_week <- factor(trips_week$day_of_week, levels = ordem_dias)
+
+
+ggplot(trips_week, aes(x = day_of_week, y = numero_corridas, fill = member_casual)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Número de Corridas por Dia da Semana e Tipo de Membro",
+       x = "",
+       y = "Número de Corridas * 1000",
+       fill = "Tipo de Membro") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(axis.text.x = element_text(angle = 20, hjust = 0.5))
 
 
 
@@ -66,18 +85,15 @@ trips_month <- trips2023_v2 %>%
   summarise(numero_corridas = n())
 
 
-print(trips_month)
-
-
 trips_month <- trips_month %>%
   group_by(date = format(date, "%Y-%m"), member_casual) %>%
   summarise(numero_corridas = sum(numero_corridas))
 
 trips_month <- trips_month %>%
-  mutate(date = paste0(date, "-01"))
-
-trips_month <- trips_month %>%
+  mutate(date = paste0(date, "-01")) %>%
   mutate(date = as.Date(date, format = "%Y-%m-%d"))
+
+
 
 
 ggplot(trips_month, aes(x = date, y = numero_corridas/1000, color = member_casual)) +

@@ -25,8 +25,10 @@ print(trips_month)
 
 # Viagens semanais por tipo de membro --- TODO
 # gerar grafico
-trips_week <- aggregate(trips2023_v2$member_casual ~ trips2023_v2$day_of_week, FUN = table)
-print(trips_week)
+
+trips_week <- trips2023_v2 %>%
+  group_by(day_of_week, member_casual) %>%
+  summarise(numero_corridas = n())
 
 head(trips_week)
 
