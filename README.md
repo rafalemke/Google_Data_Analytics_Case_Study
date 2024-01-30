@@ -16,9 +16,11 @@ Usarei dados históricos dos trajetos realizados entre janeiro e dezembro de 202
 
 Os dados estão organizados em 12 diferentes arquivos csv, nomeados por mês e ano, contendo informações de cada corrida, como origem, destino, data, hora, id do usuário dentre outras.
 
-## Processar
+## Processar e Analisar
 Devido ao tamanho dos arquivos, que ultrapassam 6 milhões de linhas, optei por manipular os dados utilizando a linguagem R junto com o software RStudio. A utilização de planilhas nesse caso seria inviável devido ao grande número de linhas. Poderia também utilizar o BigQuery ou Python, visto que já tenho mais afinidade, mas escolhi o RStudio pelo desafio de uma nova linguagem.
-   - Também está disponível o script com o código em R nesse [link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/edit/main/data_extraction.R).
+<br>
+   - [link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/edit/main/data_extraction.R) com o script "data_extraction".
+   - [Link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/edit/main/data_exploration.R) com o script "data_exploration".
 
 ### Segue um resumo de todo tratamento feito com os dados obtidos.
 
@@ -58,30 +60,25 @@ Devido ao tamanho dos arquivos, que ultrapassam 6 milhões de linhas, optei por 
 **10. Transformação e Salvamento:**
    - Conversão dos horários para apenas a hora.
    - Seleção final de colunas e salvamento do dataframe limpo em CSV.
-
-
-## Analisar
-   - [Link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/edit/main/data_exploration.R) do script contendo o código em R.
-<br>
-Na próxima etapa será melhor detalhado, visto que a visualização dos gráficos ajudam bastante na compreensão dos dados. <br>
-
-### Segue um resumo do que foi feito nessa etapa.
-
-<Br>
-
-
-**1. Distribuição dos Tipos de Membros:**
+**11. Distribuição dos Tipos de Membros:**
 
    - Verifica-se a distribuição percentual de membros nos grupos "member" e "casual" para compreender a participação relativa de cada categoria.
 
-**2. Análise Temporal:**
+**12. Análise Temporal:**
 
    - Explora-se padrões ao longo do tempo, investigando variações mensais, diárias e por dia da semana. Compara-se a frequência de viagens entre membros "member" e "casual" em diferentes períodos.
 
-**3. Duração Média de Viagens:**
+**13. Duração Média de Viagens:**
 
    - Calcula-se a duração média de viagens para cada tipo de membro e compara-se as médias, identificando eventuais diferenças significativas.
 
-**4. Análise de Horários:**
+**14. Análise de Horários:**
 
    - Investiga-se os horários mais comuns de início para cada tipo de membro. Analisa-se se existem diferenças nos padrões de uso ao longo do dia.
+
+<br>
+
+Na próxima etapa será melhor detalhado, visto que a visualização dos gráficos ajudam bastante na compreensão dos dados.
+
+
+## Compartilhar
