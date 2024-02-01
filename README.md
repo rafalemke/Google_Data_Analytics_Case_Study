@@ -121,3 +121,25 @@ Além da análise do número de registros, investigamos a duração média das v
 - **Variação Expressiva para Clientes Casuais:**
   - A duração média das viagens de clientes casuais é significativamente mais alta em comparação com membros.
   - Há um aumento notável nos tempos de viagem durante sexta, sábado e domingo para clientes casuais, indicando mais uma vez um possível uso recreativo ou turístico nos fins de semana.
+ 
+
+### 4. Análise do Total de Corridas por Mês entre Clientes Casuais e Membros
+
+<br>
+
+<p align="center">
+  <img src="https://github.com/rafalemke/Google_Data_Analytics_Case_Study/blob/main/images/corridas_mes.png" alt="image"  width="600" height="350">
+</p>
+
+- **Impacto das Estações do Ano:**
+   - O gráfico revela padrões temporais significativos no total de corridas mensais entre clientes casuais e membros, porém com um comportamento semelhante entre eles.
+   - Um aumento notável é observado a partir de março, fim do inverno em Chicago, atingindo o pico em julho, verão, e seguido por uma queda gradual até o mínimo em dezembro/janeiro. 
+
+- **Eventos Especiais e Festividades:**
+
+  - Festivais e Eventos Locais: Picos de corridas podem coincidir com festivais, eventos esportivos ou atividades locais que atraem mais usuários.
+  - Férias e Feriados: A temporada de férias, especialmente em julho, pode impulsionar a demanda por opções de transporte alternativas.
+
+- **Demanda Turística:**
+
+  - Atrativos Turísticos: Aumento na demanda relacionado à presença de turistas durante a alta temporada turística.
