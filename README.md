@@ -82,3 +82,50 @@ Na próxima etapa será melhor detalhado, visto que a visualização dos gráfic
 
 
 ## Compartilhar
+
+   1. ### Análise de Viagens entre Clientes Membros e Casuais
+
+      Primeiramente, realizamos uma análise do número total de registros de viagens entre clientes membros e casuais.
+
+<p align="center">
+  <img src="https://github.com/rafalemke/Google_Data_Analytics_Case_Study/blob/main/images/trips_total_percentage.png" alt="image">
+</p>
+
+   Com base nos dados que indicam que 64,5% dos clientes são membros e 35,5% são clientes casuais, algumas observações e insights podem ser extraídos:
+
+#### Dominância de Clientes Membros:
+
+   - A maioria dos usuários do serviço de aluguel de bicicletas são membros. Isso pode indicar uma base de clientes fiéis e recorrentes.
+#### Potencial de Crescimento de Membros:
+
+   - O fato de mais de um terço dos clientes serem casuais sugere um potencial de crescimento significativo na conversão de clientes casuais para membros.
+
+
+   2. ### Análise semanal de viagens
+      Na análise semanal, observamos padrões distintos no comportamento de viagem entre clientes casuais e membros.
+   <br>
+   
+<p align="center">
+      <img src="https://github.com/rafalemke/Google_Data_Analytics_Case_Study/blob/main/images/trips_week.png" alt="image" width="600" height="350">
+</p>
+
+#### Variação nos Dias da Semana:
+
+   - Clientes casuais mostram um aumento nas viagens nos finais de semana, indicando um possível uso recreativo durante esse período.
+   - Clientes membros, por outro lado, mantêm uma consistência nas viagens durante os dias da semana e reduz bastante nos finais de semana, sugerindo um uso mais regular.
+
+Além da análise do número de registros, investigamos a duração média das viagens entre clientes membros e casuais.
+<br>
+<p align="center">
+      <img src="https://github.com/rafalemke/Google_Data_Analytics_Case_Study/blob/main/images/media_duration_weekday.png" width="600" height="350">
+</p>
+
+### Estabilidade na Duração para Clientes Membros:
+   - Clientes membros apresentam uma duração média constante ao longo da semana, indicando uma utilização regular e consistente do serviço.
+### Variação Expressiva para Clientes Casuais:
+   - A duração média das viagens de clientes casuais é significativamente mais alta em comparação com membros.
+   - Há um aumento notável nos tempos de viagem durante sexta, sábado e domingo para clientes casuais, indicando mais uma vez um possível uso recreativo ou turístico nos fins de semana.
+
+      
+
+   
