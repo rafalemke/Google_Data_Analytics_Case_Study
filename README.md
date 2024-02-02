@@ -167,4 +167,16 @@ Além da análise do número de registros, investigamos a duração média das v
    - Estabilidade e Novo Pico às 17h: Entre 8h e 17h, o número de corridas permanece relativamente estável, seguido por um novo aumento a partir das 17 horas, sugerindo um segundo pico relacionado à jornada de trabalho.
   
    
- 
+
+## Agir
+
+   Após responder as perguntas feitas pelas partes interessadas, apresentamos as recomendações para nortear a equipe de marketing.
+
+
+Recomendações:
+
+ - Campanhas de marketing podem ser realizadas na primavera e no verão em locais turísticos e recreativos populares entre os ciclistas casuais.
+ - Os ciclistas casuais são mais ativos nos fins de semana e durante o verão e a primavera, portanto, podem ser oferecidas assinaturas sazonais ou apenas para fins de semana.
+ - Os ciclistas casuais usam suas bicicletas por períodos mais longos do que os membros. Oferecer descontos para passeios mais longos pode incentivar os ciclistas casuais e atrair membros a pedalar por períodos mais extensos.
+ - Criar programas de recompensas para membros que utilizam regularmente o serviço.
+ - Estabelecer parcerias com empresas e locais de trabalho, oferecendo benefícios exclusivos para seus funcionários se tornarem membros. 
