@@ -26,6 +26,7 @@ Devido ao tamanho dos arquivos, que ultrapassam 6 milhões de linhas, optei por 
 
 - [Link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/edit/main/data_extraction.R) com o script "data_extraction".
 - [Link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/edit/main/data_exploration.R) com o script "data_exploration".
+- [Link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/edit/main/data_visualization.R) com o script "data_visualization".
 
 ### Segue um resumo de todo tratamento feito com os dados obtidos.
 
