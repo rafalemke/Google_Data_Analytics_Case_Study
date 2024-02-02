@@ -80,6 +80,8 @@ Na próxima etapa será melhor detalhado, visto que a visualização dos gráfic
 
 ## Compartilhar
 
+   Nessa etapa será compartilhado a análise e os insights obtidos com as partes interessadas.
+
 ### 1. Análise de Viagens entre Clientes Membros e Casuais
 
 Primeiramente, realizamos uma análise do número total de registros de viagens entre clientes membros e casuais.
@@ -107,7 +109,7 @@ Na análise semanal, observamos padrões distintos no comportamento de viagem en
   - Clientes casuais mostram um aumento nas viagens nos finais de semana, indicando um possível uso recreativo durante esse período.
   - Clientes membros, por outro lado, mantêm uma consistência nas viagens durante os dias da semana e reduzem bastante nos finais de semana, sugerindo um uso mais regular.
 
-### 3. Análise da Duração Média de Viagens entre Clientes Membros e Casuais
+### 3. Análise da Duração Média de Viagens
 
 Além da análise do número de registros, investigamos a duração média das viagens entre clientes membros e casuais.
 
@@ -123,7 +125,7 @@ Além da análise do número de registros, investigamos a duração média das v
   - Há um aumento notável nos tempos de viagem durante sexta, sábado e domingo para clientes casuais, indicando mais uma vez um possível uso recreativo ou turístico nos fins de semana.
  
 
-### 4. Análise do Total de Corridas por Mês entre Clientes Casuais e Membros
+### 4. Análise do Total de Corridas por Mês
 
 <br>
 
@@ -143,3 +145,26 @@ Além da análise do número de registros, investigamos a duração média das v
 - **Demanda Turística:**
 
   - Atrativos Turísticos: Aumento na demanda relacionado à presença de turistas durante a alta temporada turística.
+ 
+
+
+### 5. Análise do Total de Corridas por Hora
+
+<br>
+
+<p align="center">
+  <img src="https://github.com/rafalemke/Google_Data_Analytics_Case_Study/blob/main/images/trips_hour.png" alt="image"  width="600" height="350">
+</p>
+
+ - **Padrões de Corridas para Clientes Casuais:**
+
+   - Aumento Progressivo: O número de corridas para clientes casuais mostra um aumento constante a partir das 7 da manhã, atingindo o pico por volta das 17 horas.
+   - Diminuição Pós 17h: Após as 17 horas, observa-se uma queda nas corridas, indicando uma redução nas atividades no final do dia.
+ 
+ - **Padrões de Corridas para Clientes Membros:**
+
+   - Aceleração Matinal: Para membros, há um aumento significativo nas corridas a partir das 6 da manhã, atingindo o pico por volta das 8 horas.
+   - Estabilidade e Novo Pico às 17h: Entre 8h e 17h, o número de corridas permanece relativamente estável, seguido por um novo aumento a partir das 17 horas, sugerindo um segundo pico relacionado à jornada de trabalho.
+  
+   
+ 
