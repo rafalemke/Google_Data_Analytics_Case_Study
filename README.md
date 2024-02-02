@@ -24,9 +24,9 @@ Os dados estão organizados em 12 diferentes arquivos csv, nomeados por mês e a
 
 Devido ao tamanho dos arquivos, que ultrapassam 6 milhões de linhas, optei por manipular os dados utilizando a linguagem R junto com o software RStudio. A utilização de planilhas nesse caso seria inviável devido ao grande número de linhas. Poderia também utilizar o BigQuery ou Python, visto que já tenho mais afinidade, mas escolhi o RStudio pelo desafio de uma nova linguagem.
 
-- [Link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/edit/main/data_extraction.R) com o script "data_extraction".
-- [Link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/edit/main/data_exploration.R) com o script "data_exploration".
-- [Link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/edit/main/data_visualization.R) com o script "data_visualization".
+- [Link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/blob/main/data_extraction.R) com o script "data_extraction".
+- [Link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/blob/main/data_exploration.R) com o script "data_exploration".
+- [Link](https://github.com/rafalemke/Google_Data_Analytics_Case_Study/blob/main/data_visualization.R) com o script "data_visualization".
 
 ### Segue um resumo de todo tratamento feito com os dados obtidos.
 
